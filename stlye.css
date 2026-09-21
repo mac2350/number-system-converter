@@ -1,0 +1,26 @@
+
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
+    height: auto;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+    border-style: solid;
+
+}
+.header{
+    background-color: blue;
+    border-radius: 16px;
+    padding: 32px;
+    width:auto;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.choose{
+    display: inline;
+    background-color: aliceblue;
+}

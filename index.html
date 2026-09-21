@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number_system</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="manifest" href="number.json">
+</head>
+<body>
+    <div class ="header">
+      <h1>Welcome</h1>
+      <p>Number system converter</p>
+
+       <div class="choose">
+        <div>
+        <label>Inputbase</label>
+        <select id="CHOICE">
+          <option value="2">binary</option>
+          <option value="8">octal</option>
+          <option value="10" selected>decimal</option>
+          <option value="16">hexadecimal</option>
+        </select> 
+      </div>
+      <div>
+        <label>Resultsbase</label>
+        <select id="TOBASE">
+          <option value="2">binary</option>
+          <option value="8">octal</option>
+          <option value="10">decimal</option>
+          <option value="16">hexadecimal</option>
+        </select>
+      </div>
+    </div> 
+    <label>ENTER A VALUE</label>
+    <input id="INPUT" autocomplete="off">   
+    <div class="" id="ERROR"></div>
+
+    <div class="result">
+      <span class="label">RESULTS</span>
+      <span class="value" id="RESULTS">-</span>
+    </div >
+    
+    <div id="EVERYBASE"></div>
+    </div>
+    
+     
+
+    
+      
+    <script src="index.js"></script> 
+</body>
+</html>
